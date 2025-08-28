@@ -10,9 +10,7 @@ const SongCarousel = () => {
           <SongCard
             key={index}
             title={song.title}
-            artist={song.artist}
             image={song.image}
-            link={song.link}
           />
         ))}
       </div>
@@ -21,9 +19,7 @@ const SongCarousel = () => {
           <SongCard
             key={index}
             title={song.title}
-            artist={song.artist}
             image={song.image}
-            link={song.link}
           />
         ))}
       </div>

@@ -11,58 +11,20 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Victor Williams — Frontend Engineer",
+  title: "Abhinav Singh",
   description:
-    "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+    "Designer/Developer/Donno",
   generator: "Next.js",
-  applicationName: "Victor Williams",
-  keywords: [
-    "freelance",
-    "developer",
-    "freelance developer",
-    "frontend",
-    "react",
-    "frontend developer",
-    "frontend engineer",
-    "creative",
-    "creative developer",
-    "creative engineer",
-    "tech",
-    "nigeria",
-    "software",
-    "software developer",
-    "portfolio",
-    "frontend developer portfolio",
-    "creative developer portfolio",
-  ],
+  applicationName: "AbhinavSingh",
   colorScheme: "dark",
   openGraph: {
-    title: "Victor Williams — Frontend Engineer",
+    title: "Abhinav Singh",
     description:
-      "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    url: "https://www.victorwilliams.me/",
-    siteName: "www.victorwilliams.me",
-    images: [
-      {
-        url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
-        width: 1200,
-        height: 630,
-        alt: "Victor Williams — Frontend Engineer",
-      },
-    ],
+      "Designer/Developer/Donno",
+    url: "https://www.abhinavsingh.com.np/",
+    siteName: "www.abhinavsingh.com.np",
     locale: "en-US",
     type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Victor Williams — Frontend Engineer",
-    description:
-      "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    creator: "victorwill__",
-    creatorId: "1243720976552144897",
-    images: [
-      "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
-    ],
   },
   robots: {
     index: true,
