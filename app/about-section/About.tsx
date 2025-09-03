@@ -2,7 +2,6 @@ import SongCarousel from "./SongCarousel";
 import "../animations/animate.css";
 import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
-import { FaCode, FaPalette, FaTools } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -23,12 +22,8 @@ const About = () => {
         />
 
         <div className="mx-auto flex w-[100%] flex-col lg:max-w-[1200px] lg:flex-row lg:gap-20">
-          <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
-            <AnimatedBody
-              text={
-                "Hi, I'm Abhinav Singh"
-              }
-            />
+          <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16 lg:max-w-[90%] lg:text-[24px]">
+            <AnimatedBody text={"Hi, I'm Abhinav Singh"} />
             <AnimatedBody
               text={
                 "A self-taught coder who loves to craft fresh ideas and build solid backends, eager to shape a future in software engineering."
@@ -47,63 +42,53 @@ const About = () => {
           </div>
 
           <div className="mb-24 flex w-full flex-col gap-6 text-[18px] font-normal leading-relaxed tracking-wide text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-8 md:text-[16px] md:leading-normal lg:mt-0 lg:mb-16 lg:max-w-[30%] lg:text-[18px]">
-  <div className="flex flex-col gap-4 md:gap-3">
-    <div className="flex items-center gap-2">
-      <FaCode className="text-[#e4ded7] text-[24px] md:text-[28px] lg:text-[20px]" />
-      <AnimatedTitle
-        text={"Languages and Tools"}
-        className={"text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"}
-        wordSpace={"mr-[0.25em]"}
-        charSpace={"mr-[0.01em]"}
-      />
-    </div>
-    <AnimatedBody
-      text={
-        "React, Next.js, TypeScript, React Testing Library, Vitetest, HTML5, Git/GitHub, NextAuth, Java, Python."
-      }
-    />
-  </div>
+            <div className="flex flex-col gap-4 md:gap-3">
+              <AnimatedTitle
+                text={"Languages and Tools"}
+                className={"text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"}
+                wordSpace={"mr-[0.25em]"}
+                charSpace={"mr-[0.01em]"}
+              />
+              <AnimatedBody
+                text={
+                  "React, Next.js, TypeScript, React Testing Library, Vitetest, HTML5, Git/GitHub, NextAuth, Java, Python."
+                }
+              />
+            </div>
 
-  <div className="flex flex-col gap-3">
-    <div className="flex items-center gap-2">
-      <FaTools className="text-[#e4ded7] text-[24px] md:text-[28px] lg:text-[20px]" />
-      <AnimatedTitle
-        text={"Extra"}
-        className={"text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"}
-        wordSpace={"mr-[0.25em]"}
-        charSpace={"mr-[0.01em]"}
-      />
-    </div>
-    <AnimatedBody
-      text={
-        "Tailwind CSS, Material UI, Framer Motion, GSAP, Bootstrap."
-      }
-    />
-  </div>
+            <div className="flex flex-col gap-3">
+              <AnimatedTitle
+                text={"Extra"}
+                className={"text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"}
+                wordSpace={"mr-[0.25em]"}
+                charSpace={"mr-[0.01em]"}
+              />
+              <AnimatedBody
+                text={"Tailwind CSS, Material UI, Framer Motion, GSAP, Bootstrap."}
+              />
+            </div>
 
-  <div className="flex flex-col gap-3">
-    <div className="flex items-center gap-2">
-      <FaPalette className="text-[#e4ded7] text-[24px] md:text-[28px] lg:text-[20px]" />
-      <AnimatedTitle
-        text={"Design Tools"}
-        className={"text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"}
-        wordSpace={"mr-[0.25em]"}
-        charSpace={"mr-[0.01em]"}
-      />
-    </div>
-    <AnimatedBody
-      text={
-        "Figma, Adobe After Effect,Adobe Photoshop, UX Research, UI Design, Prototyping."
-      }
-    />
-  </div>
-</div>
+            <div className="flex flex-col gap-3">
+              <AnimatedTitle
+                text={"Design Tools"}
+                className={"text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"}
+                wordSpace={"mr-[0.25em]"}
+                charSpace={"mr-[0.01em]"}
+              />
+              <AnimatedBody
+                text={
+                  "Figma, Adobe After Effect, Adobe Photoshop, UX Research, UI Design, Prototyping."
+                }
+              />
+            </div>
+          </div>
         </div>
+
         <div className="mt-10 flex flex-col md:-mt-0 lg:mt-28">
           <SongCarousel />
           <AnimatedBody
             text="Some of my hobbies :)"
-            className="absolute bottom-10 right-0 left-0 mx-auto w-[90%] text-center text-[14px] font-semibold uppercase text-[#e4ded7] sm:w-[500px] md:bottom-12 md:w-[550px] md:text-[16px] "
+            className="absolute bottom-10 right-0 left-0 mx-auto w-[90%] text-center text-[14px] font-semibold uppercase text-[#e4ded7] sm:w-[500px] md:bottom-12 md:w-[550px] md:text-[16px]"
           />
         </div>
       </div>
