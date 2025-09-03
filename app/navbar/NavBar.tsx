@@ -29,6 +29,7 @@ const NavBar = () => {
       >
         <FontAwesomeIcon
           icon={faFilePdf}
+          
           className="py-2 px-2 text-[16px] sm:px-4 md:py-1"
         />
       </Link> */}

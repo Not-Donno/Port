@@ -13,6 +13,8 @@ const About = dynamic(() => import("./about-section/About"));
 const Contact = dynamic(() => import("./contact-section/Contact"));
 const Footer = dynamic(() => import("./footer/Footer"));
 
+export const runtime = "edge";
+
 export default function Home() {
   const blobityInstance = useBlobity(initialBlobityOptions);
 
