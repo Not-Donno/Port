@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
@@ -77,7 +76,6 @@ const Work = () => {
                   target="_blank"
                   className="w-10 h-10 flex items-center justify-center rounded-full bg-[#e4ded7] text-[#0E1016] hover:bg-gray-300 transition"
                 >
-                  <FaGithub size={18} />
                 </Link>
                 {project.demo !== "#" && (
                   <Link
@@ -85,7 +83,6 @@ const Work = () => {
                     target="_blank"
                     className="w-10 h-10 flex items-center justify-center rounded-full bg-[#3A86FF] text-white hover:bg-[#2563eb] transition"
                   >
-                    <FaExternalLinkAlt size={16} />
                   </Link>
                 )}
               </div>
@@ -104,7 +101,6 @@ const Work = () => {
             target="_blank"
             className="flex flex-col items-center text-center p-6"
           >
-            <FaGithub size={40} className="mb-3 text-[#e4ded7]" />
             <h3 className="text-xl font-semibold">See More on GitHub</h3>
           </Link>
         </motion.div>
